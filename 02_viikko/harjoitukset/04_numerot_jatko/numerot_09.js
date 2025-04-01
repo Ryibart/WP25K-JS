@@ -11,3 +11,13 @@ Esimerkkivastaukset:
 "NaN" (kun syöte ei kelpaa).
 
  */
+
+let userInput = "25.75 omenaa";
+
+// Vaihtoehtoinen tapa
+let number = parseFloat(userInput);
+let roundedNumber = number.toFixed(1);
+console.log(roundedNumber);
+
+// Pelkistetty tapa
+// console.log(parseFloat(userInput).toFixed(1));

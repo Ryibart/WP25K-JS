@@ -5,3 +5,10 @@
 4. Käytä Math.ceil() metodia sen pyöristämiseen ylöspäin seuraavaan lähimpään kokonaislukuun.
 5. Tulosta kaikki saamasi tulokset console.log() avulla ja lisää jokaiselle selittävät teksti.
 */
+
+let num = 5.67;
+
+console.log(`Arvon ${num};
+Lähin pyöristetty kokonaisluku on: ${Math.round(num)}
+Lähin alaspäin pyöristetty kokonaisluku on: ${Math.floor(num)}
+Lähin seuraava kokonaisluku on: ${Math.ceil(num)}`);

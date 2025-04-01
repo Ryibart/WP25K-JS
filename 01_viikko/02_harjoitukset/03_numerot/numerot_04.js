@@ -4,3 +4,8 @@
  * - Laske näiden kahden numeron jakolaskun tulos ja tallenna se uuteen muuttujaan
  * - Tulosta vastaus konsoliin.
  */
+
+let num1 = 20;
+let num2 = 4;
+let result = num1 / num2;
+console.log(`Jakolaskun tulos on: ${result}`);

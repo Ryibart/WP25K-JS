@@ -12,3 +12,16 @@ NaN (jos yhteenlaskussa on virheellinen syöte).
 10 (jos molemmat syötteet ovat kelvollisia numeroita).
 
 */
+
+let	num1 = 10;
+let	num2 = "notANumber";
+
+num1 = parseFloat(num1);
+num2 = parseFloat(num2);
+
+console.log(num1 + num2);
+
+
+// Lyhyempi tapa
+// console.log(parseFloat(num1) + parseFloat(num2));
+

@@ -8,3 +8,12 @@ Tulosta tulokset käyttäen console.log() viestien kera:
 "Kokonaisluku on 42."
 "Liukuluku on 3.14."
 */
+
+
+let numString1 = "42";
+let numString2 = "3.14"
+
+parseInt(numString1);
+parseFloat(numString2);
+
+console.log(`Kokonaisluku on ${numString1}\nLiukuluku on ${numString2}`);

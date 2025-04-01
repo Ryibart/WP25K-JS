@@ -4,6 +4,14 @@
 
 
 function fahrenheitToCelsius(fahrenheit) {
+	// Muunna Fahrenheit Celsius-asteiksi
+	let celsius = (fahrenheit - 32) * 5 / 9;
+
+	// Pyöristä tulos yhteen desimaaliin
+	celsius = Math.round(celsius * 10) / 10;
+
+	// Palauta tulos merkkijonona, jossa on pilkku desimaalierottimena
+	return celsius.toString().replace('.', ',');
  
 }
 

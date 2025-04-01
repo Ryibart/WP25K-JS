@@ -6,3 +6,6 @@ Tulosta molemmat tulokset käyttäen console.log() viestien kera:
 "Hinta 2 desimaalilla: 19.57"
 "Hinta ilman desimaaleja: 20"
 */
+let price = 19.56789
+
+console.log(`Hinta 2 desimaalilla: ${price.toFixed(2)}\nHinta ilman desimaaleja: ${price.toFixed(0)}`)
