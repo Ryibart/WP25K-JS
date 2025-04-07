@@ -2,3 +2,7 @@
 Luo merkkijono käyttäen backtick-merkkejä sanoaksesi: "The sum of 7 and 5 is 12." upottamalla summauslauseke suoraan mallimerkkijonoon.
 Tulosta muodostettu merkkijono.
 */
+
+let num1 = 7;
+let num2 = 5;
+console.log(`The sum of ${num1} and ${num2} is ${num1 + num2}.`);

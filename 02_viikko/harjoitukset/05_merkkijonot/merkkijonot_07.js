@@ -7,3 +7,8 @@ Esimerkkituloste:
 "HELLO, WORLD!"
 "hello, world!"
 */
+
+let greeting = "Hello, World!";
+
+console.log(greeting.toUpperCase());
+console.log(greeting.toLowerCase());

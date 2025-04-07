@@ -5,3 +5,6 @@ Tulosta siistitty merkkijono käyttäen console.log().
 Esimerkkituloste:
 "Cleaned string: Clean me up!"
 */
+
+const messyString = " Clean me up! ";
+console.log(`Cleaned string: " + "${messyString.trim()}"`);

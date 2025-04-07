@@ -12,8 +12,16 @@ Tulosta tulokset käyttäen console.log() viestien kera:
 
 let numString1 = "42";
 let numString2 = "3.14"
+let testString = "69tes17ti"; // Tarkoituksena on varmentaa, että parseInt() toimii oikein
 
-parseInt(numString1);
-parseFloat(numString2);
+console.log(`Kokonaisluku on ${numString1}`);
+console.log(`Liukuluku on ${numString2}`);
+console.log(`Testi on ${testString} (69tes17ti)`);
 
-console.log(`Kokonaisluku on ${numString1}\nLiukuluku on ${numString2}`);
+console.log("Yllä testitulostus ennen muutosta, alla oikea tulostus");
+
+let num1 = parseInt(numString1);
+let num2 = parseFloat(numString2);
+let test = parseInt(testString);
+console.log(`Kokonaisluku on ${num1}\nLiukuluku on ${num2}`);
+console.log(`Testi on ${test} (69)`);

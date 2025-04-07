@@ -5,3 +5,7 @@ Tulosta erotettu sana käyttäen console.log().
 Esimerkkituloste:
 "Extracted word: JavaScript"
 */
+
+const sentence = "Learning JavaScript is fun!";
+
+console.log("Extracted word: " + sentence.substring(9, 19));
