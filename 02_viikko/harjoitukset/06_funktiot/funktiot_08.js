@@ -6,3 +6,9 @@ Tulosta tulos käyttäen console.log().
 
 Vinkki: Käytä .toFixed().
 */
+
+function roundNumber(num, precision) {
+	return Number(num.toFixed(precision));
+}
+const result = roundNumber(19.56789, 2);
+console.log("Rounded number: " + result);

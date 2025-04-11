@@ -6,3 +6,9 @@ Tulosta tulos käyttäen console.log().
 
 Vinkki: Käytä Math.max().
 */
+
+function findMax(a, b, c) {
+	return Math.max(a, b, c);
+}
+const result = findMax(12, 7, 20);
+console.log("Largest number: " + result);

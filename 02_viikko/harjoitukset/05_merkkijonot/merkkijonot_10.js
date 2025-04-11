@@ -5,3 +5,7 @@ Tulosta tulos käyttäen console.log().
 Esimerkkituloste:
 "Does the phrase include 'powerful'? true"
 */
+
+const phrase = "JavaScript is versatile and powerful.";
+const containsPowerful = phrase.includes("powerful");
+console.log("Does the phrase include 'powerful'? " + containsPowerful);

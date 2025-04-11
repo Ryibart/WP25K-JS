@@ -6,3 +6,9 @@ Tulosta tulos käyttäen console.log().
 
 Vinkki: Käytä str[0].toUpperCase() ja str.slice(1).toLowerCase().
 */
+
+function capitalize(str) {
+	  return str[0].toUpperCase() + str.slice(1).toLowerCase();
+}
+const result = capitalize("javascript");
+console.log("Capitalized 'javascript': " + result);
